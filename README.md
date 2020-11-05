@@ -7,3 +7,6 @@ MapKitとCoreLocationCoreLocationをSwiftUI2.0で使うサンプル。参考に�
 
 * [LocationUpdata](https://github.com/dropcontrol/LocationUpdata)  
 上記のMapAndLocationからCoreLocationだけを使って、現在の緯度経度をボタンを押すと取得する、というアプリ。delegate（に限らずクラスでも同じだと思う）を使ってボタンなどのアクションによって値をどう変化させるか？@Stateと@Publisedの使い方あたりも参考になると思う。本当はLocationUpdateって名前にしたかったのだがtypoしてる、、、
+
+* [ViewControllerDelegatePattern](https://github.com/dropcontrol/ViewControllerDelegatePattern)
+ViewController間で値を渡すパターン。Viewを二つ用意。親から子へ渡すパターンと、子から親へ渡すパターン。
