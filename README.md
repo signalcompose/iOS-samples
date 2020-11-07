@@ -10,3 +10,6 @@ MapKitとCoreLocationCoreLocationをSwiftUI2.0で使うサンプル。参考に�
 
 * [ViewControllerDelegatePattern](https://github.com/dropcontrol/ViewControllerDelegatePattern)
 View間で値を渡すパターン。Viewを二つ用意。親から子へ渡すパターンと、子から親へ渡すパターン。またNavigationLinkを使ったページ遷移のサンプルにもなっている。
+
+* [PDFViewer](https://github.com/dropcontrol/PDFViewer/tree/main)
+PDFをPageViewControllerを利用してページごとにめくれるビュワー。SwiftUIでのNotificationCenterの設定の仕方や、@ObservedObjectを複数のViewで共有する、などのサンプルにもなっている。@ObservableObjectをどこでインスタンス化して、それをどうViewで渡していくのか？がミソ。ページ番号はNotificationCenterと@objservableObjectのインスタンスの組み合わせで取得／表示している。
